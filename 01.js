@@ -14,6 +14,8 @@ function menorMayor(numeros) {
   // y 15 es el número más grande (mayor) dentro del arreglo [4, 6, 1, 7, 15]
 
   // Tu código aca:
+  numeros.sort( (a, b) => a - b);
+  return [numeros[0], numeros[numeros.length - 1]]
 }
 
 // No modifiques nada debajo de esta linea //
